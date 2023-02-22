@@ -1,0 +1,10 @@
+.film__header {
+	width: 100%;
+	padding: 14px;
+	box-sizing: border-box;
+	display: grid;
+	grid-template-columns: 1fr 30px;
+	row-gap: 9px;
+	column-gap: 20px;
+	align-items: center;
+}

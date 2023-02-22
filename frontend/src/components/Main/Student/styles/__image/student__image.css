@@ -1,0 +1,25 @@
+.student__image {
+	margin: 60px 0 0;
+	width: 100%;
+	max-width: 320px;
+	max-height: 500px;
+	border-radius: 10px;
+	object-fit: cover;
+	object-position: bottom;
+}
+
+@media screen and (min-width: 768px) {
+	.student__image {
+		grid-row-start: 2;
+		grid-row-end: 4;
+		grid-column-start: 2;
+		grid-column-end: 3;
+		margin: 60px 0 0;
+	}
+}
+
+@media screen and (min-width: 1000px) {
+	.student__image {
+		margin-top: 66px;
+	}
+}

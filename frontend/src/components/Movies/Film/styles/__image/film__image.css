@@ -1,0 +1,20 @@
+.film__image {
+	height: 168px;
+	width: 100%;
+	object-fit: cover;
+	object-position: center;
+	background-color: inherit;
+	box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.08);
+}
+
+@media screen and (min-width: 768px) {
+	.film__image {
+		height: 190px;
+	}
+}
+
+@media screen and (min-width: 1000px) {
+	.film__image {
+		height: 203px;
+	}
+}

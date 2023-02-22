@@ -1,0 +1,20 @@
+.tech__tile {
+	margin-top: 50px;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, 84px);
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+}
+
+@media screen and (min-width: 768px) {
+	.tech__tile {
+		margin-top: 83px;
+	}
+}
+
+@media screen and (min-width: 1000px) {
+	.tech__tile {
+		margin-top: 100px;
+	}
+}

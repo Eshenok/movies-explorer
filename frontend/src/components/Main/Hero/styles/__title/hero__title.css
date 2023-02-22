@@ -1,0 +1,21 @@
+.hero__title {
+	margin: 0;
+	max-width: 360px;
+	/*Шрифт*/
+	font-family: 'Inter', Arial, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 31px;
+	line-height: 39px;
+	text-align: center;
+	letter-spacing: -0.04em;
+	color: var(--color-white);
+}
+
+@media screen and (min-width: 768px) {
+	.hero__title {
+		max-width: 730px;
+		font-size: 50px;
+		line-height: 58px;
+	}
+}

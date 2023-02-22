@@ -1,0 +1,4 @@
+.button_theme_transparent-white {
+	background-color: transparent;
+	color: var(--font-color);
+}

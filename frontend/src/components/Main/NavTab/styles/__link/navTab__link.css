@@ -1,0 +1,28 @@
+.navTab__link {
+	/*Шрифт*/
+	font-family: 'Inter', Arial, sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 11px;
+	line-height: 16px;
+	text-decoration: underline;
+	color: var(--color-white);
+	/*Анимация*/
+	transition: filter linear .2s, opacity linear .2s;
+}
+
+.navTab__link:hover {
+	cursor: pointer;
+	filter: drop-shadow(0 3px 3px var(--color-black));
+}
+
+.navTab__link:active {
+	opacity: .8;
+}
+
+@media screen and (min-width: 768px) {
+	.navTab__link {
+		font-size: 13px;
+		line-height: 16px;
+	}
+}

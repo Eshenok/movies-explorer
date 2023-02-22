@@ -1,0 +1,8 @@
+.main {
+	color: var(--font-color);
+	background-color: var(--bg-color);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}

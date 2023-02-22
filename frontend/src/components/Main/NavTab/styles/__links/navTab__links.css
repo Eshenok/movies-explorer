@@ -1,0 +1,16 @@
+.navTab__links {
+	margin: 0;
+	padding: 25px 0;
+	list-style: none;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	justify-items: center;
+	align-content: center;
+	gap: 24px;
+}
+
+@media screen and (min-width: 768px) {
+	.navTab__links {
+		column-gap: 40px;
+	}
+}

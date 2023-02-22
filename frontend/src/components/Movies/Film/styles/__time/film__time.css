@@ -1,0 +1,10 @@
+.film__time {
+	margin: 0;
+	/*Шрифт*/
+	font-family: 'Inter', Arial, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 11px;
+	line-height: 13px;
+	color: var(--font-colorGrey);
+}

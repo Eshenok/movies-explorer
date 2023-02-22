@@ -1,0 +1,6 @@
+.button_icon_search {
+	background: var(--color-blue) url("../../../../images/searchIcon.svg") no-repeat center center;
+	border-radius: 50%;
+	width: 34px;
+	height: 34px;
+}

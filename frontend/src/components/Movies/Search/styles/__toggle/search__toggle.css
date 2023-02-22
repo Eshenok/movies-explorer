@@ -1,0 +1,26 @@
+.search__toggle {
+	width: 100%;
+	display: flex;
+	gap: 15px; /*Явная ошибка в верстке*/
+	align-items: center;
+	justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+	.search__toggle {
+		width: auto;
+	}
+
+	.search__toggle::before {
+		content: '';
+		border-left: 1px solid #505050;
+		height: 40px;
+		margin-right: 4px;
+	}
+}
+
+@media screen and (min-width: 1000px) {
+	.search__toggle::before {
+		margin-right: 14px;
+	}
+}

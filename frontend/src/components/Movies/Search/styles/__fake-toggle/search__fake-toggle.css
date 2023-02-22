@@ -1,0 +1,38 @@
+.search__fake-toggle {
+	position: relative;
+	display: inline-flex;
+	align-items: center;
+	user-select: none;
+}
+
+.search__fake-toggle:hover {
+	cursor: pointer;
+}
+
+.search__fake-toggle::before {
+	content: '';
+	display: inline-block;
+	width: 36px;
+	height: 20px;
+	flex-shrink: 0;
+	flex-grow: 0;
+	border-radius: 20px;
+	background-color: var(--bgInput-color);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 50% 50%;
+	/*Анимация*/
+	transition: background-color linear .2s;
+}
+
+.search__fake-toggle::after {
+	content: '';
+	position: absolute;
+	background-color: var(--font-color);
+	width: 8px;
+	height: 8px;
+	left: 8px;
+	border-radius: 50%;
+	/*Анимация*/
+	transition: left linear .2s;
+}

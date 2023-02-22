@@ -1,0 +1,7 @@
+.film__YTlink {
+	transition: opacity linear .2s;
+}
+
+.film__YTlink:hover {
+	opacity: .8;
+}

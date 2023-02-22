@@ -1,0 +1,18 @@
+.button_place_profile {
+	/*Шрифт*/
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 16px;
+	/*Анимация*/
+	transition: filter linear .2s, opacity linear .2s;
+}
+
+.button_place_profile:hover {
+	filter: contrast(200%);
+}
+
+.button_place_profile:active {
+	box-shadow: none;
+	opacity: .8;
+}

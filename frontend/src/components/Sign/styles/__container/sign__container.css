@@ -1,0 +1,5 @@
+.sign__container {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+}

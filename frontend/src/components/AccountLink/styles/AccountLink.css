@@ -1,0 +1,32 @@
+.account {
+	display: flex;
+	align-items: center;
+	gap: 7px;
+	/*Шрифт*/
+	font-family: 'Inter', Arial, sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 13px;
+	line-height: 12px;
+	color: var(--font-color);
+	text-decoration: none;
+	/*Анимация*/
+	transition: opacity linear .2s, filter linear .2s;
+}
+
+.account:hover {
+	cursor: pointer;
+	filter: drop-shadow(0 3px 3px var(--color-black));
+}
+
+.account:active {
+	opacity: .8;
+}
+
+.account::after {
+	content: '';
+	background: var(--elem-color) url("../../../images/accountImage.svg") no-repeat center center;
+	width: 26px;
+	height: 26px;
+	border-radius: 50%;
+}

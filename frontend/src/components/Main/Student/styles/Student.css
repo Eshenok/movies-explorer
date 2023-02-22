@@ -1,0 +1,18 @@
+.student {
+	display: grid;
+	grid-template-columns: 1fr;
+	justify-items: center;
+}
+
+@media screen and (min-width: 768px) {
+	.student {
+		grid-template-columns: 1fr 255px;
+		column-gap: 50px;
+	}
+}
+
+@media screen and (min-width: 1000px) {
+	.student {
+		grid-template-columns: 1fr 270px;
+	}
+}

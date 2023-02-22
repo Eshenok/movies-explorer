@@ -1,0 +1,25 @@
+.promo__brief {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+	max-width: 330px;
+}
+
+@media screen and (min-width: 425px) {
+	.promo__brief {
+		gap: 22px;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.promo__brief {
+		max-width: 400px;
+	}
+}
+
+@media screen and (min-width: 1000px) {
+	.promo__brief {
+		max-width: 550px;
+		gap: 26px;
+	}
+}

@@ -1,0 +1,12 @@
+.menu-popup__link {
+	padding-bottom: 7px;
+	border-bottom: 2px solid transparent;
+	/*Шрифт*/
+	font-family: 'Inter', Arial, sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 22px;
+	color: var(--font-color);
+	text-decoration: none;
+}

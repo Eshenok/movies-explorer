@@ -1,0 +1,15 @@
+.search__toggle_text {
+	/*Шрифт*/
+	font-family: 'Inter', Arial, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 11px;
+	line-height: 18px;
+	color: var(--font-color);
+}
+
+@media screen and (min-width: 768px) {
+	.search__toggle_text {
+		font-size: 13px;
+	}
+}

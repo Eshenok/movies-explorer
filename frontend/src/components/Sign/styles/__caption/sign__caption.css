@@ -1,0 +1,13 @@
+.sign__caption {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	margin-top: 14px;
+	gap: 7px;
+}
+
+@media screen and (min-width: 425px) {
+	.sign__caption {
+		gap: 6px;
+	}
+}

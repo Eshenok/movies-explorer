@@ -1,0 +1,31 @@
+.header {
+	order: 1;
+	box-sizing: border-box;
+	position: absolute;
+	width: 100%;
+	background-color: transparent;
+	padding: 18px 14px;
+}
+
+.header__some {
+	display: none;
+}
+
+@media screen and (min-width: 768px) {
+	.header {
+		padding: 18px 30px;
+	}
+}
+
+@media screen and (min-width: 1000px) {
+	.header {
+		padding: 18px 70px;
+	}
+
+	.header__some {
+		margin-left: 44px;
+		display: flex;
+		justify-content: space-between;
+		width: 100%;
+	}
+}

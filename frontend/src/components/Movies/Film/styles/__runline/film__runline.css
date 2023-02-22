@@ -1,0 +1,13 @@
+.film__runline > span {
+	display: inline-block;
+	white-space: nowrap;
+	animation-play-state: paused;
+}
+
+.film__runline:hover>span {
+	animation: runline 10s linear infinite 1s both;
+}
+
+@keyframes runline {
+	to {transform: translateX(-100%);}
+}

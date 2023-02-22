@@ -1,0 +1,12 @@
+.header__menu {
+	display: none;
+}
+
+@media screen and (min-width: 1000px) {
+	.header__menu {
+		margin-left: 44px;
+		display: flex;
+		justify-content: space-between;
+		width: 100%;
+	}
+}

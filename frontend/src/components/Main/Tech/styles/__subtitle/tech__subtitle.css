@@ -1,0 +1,25 @@
+.tech__subtitle {
+	margin: 60px 0 24px;
+	/*Шрифт*/
+	font-family: 'Inter', Arial, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 36px;
+	text-align: center;
+	letter-spacing: -0.04em;
+}
+
+@media screen and (min-width: 768px) {
+	.tech__subtitle {
+		margin: 80px 0 22px;
+		font-size: 50px;
+		line-height: 58px;
+	}
+}
+
+@media screen and (min-width: 1000px) {
+	.tech__subtitle {
+		margin: 90px 0 26px;
+	}
+}

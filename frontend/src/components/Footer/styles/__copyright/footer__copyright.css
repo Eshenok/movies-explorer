@@ -1,0 +1,18 @@
+.footer__copyright {
+	margin: 0;
+	/*Шрифт*/
+	font-family: 'Inter', Arial, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 15px;
+	color: var(--font-colorGrey);
+}
+
+@media screen and (min-width: 425px) {
+	.footer__copyright {
+		justify-self: start;
+		font-size: 13px;
+		line-height: 16px;
+	}
+}

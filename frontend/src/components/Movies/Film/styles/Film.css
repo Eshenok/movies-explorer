@@ -1,0 +1,9 @@
+.film {
+	background-color: var(--color-carbonic);
+	box-sizing: border-box;
+	width: 100%;
+	max-width: 400px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}

@@ -1,0 +1,8 @@
+.button_icon_like {
+	border-radius: 50%;
+	background: var(--elem-color) url("../../../../images/saveIcon.svg") no-repeat center center;
+	width: 30px;
+	height: 30px;
+	/*Анимация*/
+	transition: background-color ease-out .2s, background-image ease-out .2s;
+}

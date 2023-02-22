@@ -1,0 +1,13 @@
+.input__span-error {
+	display: block;
+	margin-top: 10px;
+	word-wrap: break-word;
+	height: 24px;
+	/*Шрифт*/
+	font-family: 'Inter', Arial, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 10px;
+	line-height: 12px;
+	color: var(--font-colorRed);
+}

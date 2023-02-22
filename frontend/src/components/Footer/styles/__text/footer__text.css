@@ -1,0 +1,24 @@
+.footer__text {
+	margin: 0;
+	justify-self: normal;
+	border-bottom: 1px solid var(--border-colorGrey);
+	padding-bottom: 20px;
+	/*Шрифт*/
+	font-family: 'Inter', Arial, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 15px;
+	text-align: center;
+	color: var(--font-colorGrey);
+}
+
+@media screen and (min-width: 425px) {
+	.footer__text {
+		order: -1;
+		grid-column-start: 1;
+		grid-column-end: -1;
+		font-size: 13px;
+		line-height: 16px;
+	}
+}

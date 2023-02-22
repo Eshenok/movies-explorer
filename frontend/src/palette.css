@@ -1,0 +1,26 @@
+:root {
+	--color-white: #fff;
+	--color-mateWhite: #dadada;
+	--color-mateGrey: #8b8b8b;
+	--color-dirtyGrey: #424242;
+	--color-lightgrey: #303030;
+	--color-umbragrey: #2f2f2f;
+	--color-grey: #272727;
+	--color-darkgrey: #202020;
+	--color-carbonic: #222;
+	--color-black: #000;
+	--color-green: #3ddc84;
+	--color-blue: #4285F4;
+	--color-darkblue: #073042;
+	--color-red: #EE3465;
+	/*Темизация*/
+	--border-colorWhite: var(--color-mateWhite);
+	--border-colorGrey: var(--color-dirtyGrey);
+	--bg-color: var(--color-darkgrey);
+	--bgInput-color: var(--color-umbragrey);
+	--font-color: var(--color-white);
+	--font-colorGrey: var(--color-mateGrey);
+	--link-color: var(--color-blue);
+	--font-colorRed: var(--color-red);
+	--elem-color: var(--color-lightgrey);
+}

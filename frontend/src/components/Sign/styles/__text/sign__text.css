@@ -1,0 +1,17 @@
+.sign__text {
+	margin: 0;
+	/*Шрифт*/
+	font-family: 'Inter', Arial, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 15px;
+	color: var(--font-colorGrey);
+}
+
+@media screen and (min-width: 425px) {
+	.sign__text {
+		font-size: 14px;
+		line-height: 17px;
+	}
+}

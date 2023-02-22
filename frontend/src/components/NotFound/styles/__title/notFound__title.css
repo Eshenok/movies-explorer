@@ -1,0 +1,18 @@
+.notFound__title {
+	margin: 0;
+	/*Шрифт*/
+	font-family: 'Inter', Arial, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 80px;
+	line-height: 97px;
+	text-align: center;
+	color: var(--font-color);
+}
+
+@media screen and (min-width: 768px) {
+	.notFound__title {
+		font-size: 140px;
+		line-height: 169px;
+	}
+}

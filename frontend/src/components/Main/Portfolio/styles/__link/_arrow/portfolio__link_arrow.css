@@ -1,0 +1,30 @@
+.portfolio__link_arrow {
+	display: block;
+	background: url("../../../../../../images/linkArrow.svg") no-repeat center right;
+	/*Шрифт*/
+	color: var(--font-color);
+	text-decoration: none;
+	/*Анимация*/
+	transition: filter linear .2s, opacity linear .2s;
+}
+
+.portfolio__link_arrow:hover {
+	cursor: pointer;
+	filter: drop-shadow(0 3px 3px var(--color-black));
+}
+
+.portfolio__link_arrow:active {
+	opacity: .8;
+}
+
+@media screen and (min-width: 768px) {
+	.portfolio__link_arrow {
+		background-size: 16px;
+	}
+}
+
+@media screen and (min-width: 1000px) {
+	.portfolio__link_arrow {
+		background-size: 18px;
+	}
+}

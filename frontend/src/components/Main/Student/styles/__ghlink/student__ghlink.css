@@ -1,0 +1,28 @@
+.student__ghlink {
+	justify-self: normal;
+	/*Шрифт*/
+	font-family: 'Inter', Arial, sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 17px;
+	color: var(--font-color);
+	text-decoration: none;
+	/*Animation*/
+	transition: filter linear .2s, opacity linear .2s;
+}
+
+.student__ghlink:hover {
+	cursor: pointer;
+	filter: drop-shadow(0 3px 3px var(--color-black));
+}
+
+.student__ghlink:active {
+	opacity: .8;
+}
+
+@media screen and (min-width: 768px) {
+	.student__ghlink {
+		align-self: end;
+	}
+}

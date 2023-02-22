@@ -1,0 +1,10 @@
+.header__menu_link {
+	/*Шрифт*/
+	font-family: 'Inter', Arial, sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 13px;
+	line-height: 18px;
+	color: var(--font-color);
+	text-decoration: none;
+}

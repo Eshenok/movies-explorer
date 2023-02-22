@@ -1,0 +1,24 @@
+.student__name {
+	margin: 0;
+	/*Шрифт*/
+	font-family: 'Inter', Arial, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 36px;
+	letter-spacing: -0.04em;
+}
+
+@media screen and (min-width: 768px) {
+	.student__name {
+		font-size: 40px;
+		line-height: 40px;
+	}
+}
+
+@media screen and (min-width: 1000px) {
+	.student__name {
+		font-size: 50px;
+		line-height: 58px;
+	}
+}

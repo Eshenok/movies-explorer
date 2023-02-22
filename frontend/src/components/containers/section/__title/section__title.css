@@ -1,0 +1,17 @@
+.section__title {
+	margin: 0;
+	/*Шрифт*/
+	font-family: 'Inter', Arial, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 22px;
+	letter-spacing: -0.04em;
+}
+
+@media screen and (min-width: 768px) {
+	.section__title {
+		font-size: 22px;
+		line-height: 27px;
+	}
+}

@@ -1,0 +1,8 @@
+.films {
+	background-color: var(--bg-color);
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 79px;
+}

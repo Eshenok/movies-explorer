@@ -1,0 +1,28 @@
+.header__link {
+	/*Шрифт*/
+	font-family: 'Inter', Arial, sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 10px;
+	line-height: 16px;
+	text-decoration: none;
+	color: var(--font-color);
+	/*Анимация*/
+	transition: filter linear .2s, opacity linear .2s;
+}
+
+.header__link:hover {
+	cursor: pointer;
+	filter: drop-shadow(0 3px 3px var(--color-black));
+}
+
+.header__link:active {
+	opacity: .8;
+}
+
+@media screen and (min-width: 768px) {
+	.header__link {
+		font-size: 12px;
+		line-height: 16px;
+	}
+}

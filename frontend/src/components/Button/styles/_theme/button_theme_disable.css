@@ -1,0 +1,15 @@
+.button_theme_disable {
+	background-color: var(--bgInput-color);
+	opacity: .8;
+	color: var(--font-color);
+}
+
+.button_theme_disable:hover {
+	cursor: default;
+	filter: none;
+}
+
+.button_theme_disable:active {
+	filter: none;
+	box-shadow: none;
+}

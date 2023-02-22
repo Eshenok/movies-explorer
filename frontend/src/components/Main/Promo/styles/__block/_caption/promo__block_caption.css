@@ -1,0 +1,17 @@
+.promo__block_caption {
+	margin: 0;
+	/*Шрифт*/
+	font-family: 'Inter', Arial, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 11px;
+	line-height: 13px;
+	color: var(--font-colorGrey);
+}
+
+@media screen and (min-width: 425px) {
+	.promo__block_caption {
+		font-size: 14px;
+		line-height: 17px;
+	}
+}

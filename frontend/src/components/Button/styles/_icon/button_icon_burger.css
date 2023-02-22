@@ -1,0 +1,19 @@
+.button_icon_burger {
+	width: 40px;
+	background: url("../../../../images/burger.svg") no-repeat center center;
+	background-size: 40px;
+	height: 43px;
+	/*Анимация*/
+	transition: opacity linear .2s;
+}
+
+.button_icon_burger:active {
+	box-shadow: none;
+	opacity: .8;
+}
+
+@media screen and (min-width: 1000px) {
+	.button_icon_burger {
+		display: none;
+	}
+}

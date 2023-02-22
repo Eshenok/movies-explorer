@@ -1,0 +1,12 @@
+.button_place_menu-popup {
+	position: absolute;
+	top: 18px;
+	right: 18px;
+}
+
+@media screen and (min-width: 768px) {
+	.button_place_menu-popup {
+		top: 27px;
+		right: 27px;
+	}
+}

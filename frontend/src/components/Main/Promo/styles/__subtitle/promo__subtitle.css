@@ -1,0 +1,17 @@
+.promo__subtitle {
+	margin: 0;
+	/*Шрифт*/
+	font-family: 'Inter', Arial, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 22px;
+	letter-spacing: -0.04em;
+}
+
+@media screen and (min-width: 768px) {
+	.promo__subtitle {
+		font-size: 20px;
+		line-height: 24px;
+	}
+}

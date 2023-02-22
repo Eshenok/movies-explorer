@@ -1,0 +1,14 @@
+.button_theme_text-disable {
+	color: var(--font-colorGrey);
+}
+
+.button_theme_text-disable:hover {
+	filter: none;
+	cursor: default;
+}
+
+.button_theme_text-disable:active {
+	filter: none;
+	box-shadow: none;
+	opacity: 1;
+}

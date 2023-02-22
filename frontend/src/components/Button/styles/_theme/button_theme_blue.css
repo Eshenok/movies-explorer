@@ -1,0 +1,18 @@
+.button_theme_blue {
+	padding: 15px 0;
+	background-color: var(--link-color);
+	/*Шрифт*/
+	font-style: normal;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 15px;
+	color: var(--font-color);
+	border-radius: 3px;
+}
+
+@media screen and (min-width: 768px) {
+	.button_theme_blue {
+		font-size: 14px;
+		line-height: 17px;
+	}
+}

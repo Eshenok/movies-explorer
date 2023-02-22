@@ -1,0 +1,40 @@
+.notFound__link {
+	position: absolute;
+	bottom: 30px;
+	/*Шрифт*/
+	font-family: 'Inter', Arial, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 15px;
+	text-align: center;
+	color: var(--color-blue);
+	text-decoration: none;
+	/*Анимация*/
+	transition: filter linear .2s, opacity linear .2s;
+}
+
+.notFound__link:hover {
+	cursor: pointer;
+	filter: drop-shadow(0 3px 3px var(--color-black));
+}
+
+.notFound__link:active {
+	opacity: .8;
+}
+
+@media screen and (min-width: 768px) {
+	.notFound__link {
+		font-size: 14px;
+		line-height: 17px;
+		position: relative;
+		bottom: 0;
+	}
+}
+
+@media screen and (min-width: 1000px) {
+	.notFound__link {
+		position: absolute;
+		bottom: 60px;
+	}
+}

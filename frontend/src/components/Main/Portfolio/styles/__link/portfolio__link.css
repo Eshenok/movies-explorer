@@ -1,0 +1,30 @@
+.portfolio__link {
+	margin-top: 20px;
+	padding-bottom: 19px;
+	border-bottom: 1px solid var(--border-colorGrey);
+	/*Шрифт*/
+	font-family: 'Inter', Arial, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 28px;
+	letter-spacing: -0.04em;
+}
+
+.portfolio__link:last-of-type {
+	border: none;
+	padding: 0;
+}
+
+@media screen and (min-width: 768px) {
+	.portfolio__link {
+		font-size: 28px;
+		line-height: 50px;
+	}
+}
+
+@media screen and (min-width: 1000px) {
+	.portfolio__link {
+		font-size: 30px;
+	}
+}

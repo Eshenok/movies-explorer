@@ -1,0 +1,22 @@
+.promo__container {
+	margin: 60px auto;
+	justify-items: center;
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 56px;
+}
+
+@media screen and (min-width: 425px) {
+	.promo__container {
+		margin: 70px auto 93px;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 30px;
+	}
+}
+
+@media screen and (min-width: 1000px) {
+	.promo__container {
+		margin: 70px auto 110px;
+		gap: 40px;
+	}
+}

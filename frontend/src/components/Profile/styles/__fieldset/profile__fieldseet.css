@@ -1,0 +1,17 @@
+.profile__fieldset {
+	margin: 0;
+	padding: 0 0 16px;
+	width: 100%;
+	box-sizing: border-box;
+	border: none;
+	display: flex;
+	align-items: center;
+	gap: 15px;
+	justify-content: space-between;
+	border-bottom: 1px solid var(--border-colorGrey);
+}
+
+.profile__fieldset:last-of-type {
+	padding-bottom: 0;
+	border: none;
+}

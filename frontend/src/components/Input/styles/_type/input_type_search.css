@@ -1,0 +1,29 @@
+.input_type_search {
+	/*Шрифт*/
+	font-family: 'Inter', Arial, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 22px; /*В макете ошибка*/
+	color: var(--font-color);
+}
+
+.input_type_search::placeholder {
+	/*Шрифт*/
+	font-family: 'Inter', Arial, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1em;
+	line-height: 22px;
+	color: var(--font-colorGrey);
+}
+
+.input_type_search:focus {
+	border-bottom: 1px solid var(--border-colorGrey);
+}
+
+@media screen and (min-width: 768px) {
+	.input_type_search {
+		font-size: 18px;
+	}
+}

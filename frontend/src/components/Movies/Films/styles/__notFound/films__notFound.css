@@ -1,0 +1,27 @@
+.films__notFound {
+	grid-column-start: 1;
+	grid-column-end: -1;
+	/*Шрифт*/
+	font-family: 'Inter', Arial, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 36px;
+	letter-spacing: -0.04em;
+	color: var(--font-color);
+	text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+	.films__notFound {
+		font-size: 40px;
+		line-height: 40px;
+	}
+}
+
+@media screen and (min-width: 1000px) {
+	.films__notFound {
+		font-size: 50px;
+		line-height: 58px;
+	}
+}

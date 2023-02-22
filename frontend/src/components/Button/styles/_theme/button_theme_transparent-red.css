@@ -1,0 +1,4 @@
+.button_theme_transparent-red {
+	background-color: transparent;
+	color: var(--font-colorRed);
+}

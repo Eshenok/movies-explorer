@@ -1,0 +1,4 @@
+.button_icon_like-active {
+	background-color: var(--color-green);
+	background-image: url("../../../../images/saveIcon-active.svg");
+}

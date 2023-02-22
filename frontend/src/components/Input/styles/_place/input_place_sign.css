@@ -1,0 +1,24 @@
+.input_place_sign {
+	background-color: var(--bgInput-color);
+	padding: 15px;
+	border-radius: 8px;
+	box-sizing: border-box;
+	width: 100%;
+	/*Шрифт*/
+	font-family: 'Inter', Arial, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 16px;
+	color: var(--font-color);
+}
+
+.input_place_sign::placeholder {
+	/*Шрифт*/
+	font-family: 'Inter', Arial, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 16px;
+	color: var(--font-colorGrey);
+}
